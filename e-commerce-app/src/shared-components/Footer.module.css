@@ -1,0 +1,59 @@
+.footer {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(34, 34, 34);
+  
+}
+
+.list {
+    display: flex;
+    color: rgb(112, 112, 112)
+}
+
+
+
+.list div ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+.list .left_list ul li {
+    margin: 20px 400px 20px 0px;
+    padding: 0;
+}
+.list .right_list ul li {
+    margin: 20px 0px 20px 400px;
+}
+
+
+.list_title {
+    font-size: 28px;
+    font-weight: 700px;
+    color: rgb(112, 112, 112);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+
+}
+
+
+.copyrights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 19, 19);
+    color: #fff;
+    height: 50px;
+}
+
+
+.icons a {
+    color: #fff;
+    font-size: 50px;
+    margin: 0px 10px; 
+}
+

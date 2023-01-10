@@ -1,0 +1,19 @@
+.container {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 900;
+}
