@@ -3,8 +3,8 @@ import CardList from "./components/CardList";
 import Footer from "./shared-components/Footer";
 import Layout from "./Layout/Layout";
 import { Routes, Route } from "react-router-dom";
-import Login from "./pages/Auth/Login";
-import Signup from "./pages/SignUp/Singup";
+import Login from "./pages/Login/Login";
+
 
 function App() {
   return (
@@ -12,7 +12,6 @@ function App() {
       <Routes>
         <Route path="/" element={<CardList />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
       </Routes>
       <Footer />
     </Layout>
