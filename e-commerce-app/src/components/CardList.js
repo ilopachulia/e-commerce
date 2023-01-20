@@ -28,7 +28,6 @@ function CardList() {
     setSearchField(searchFieldString);
   };
 
-  console.log("rendering");
 
   return (
     <Fragment>
